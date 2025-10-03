@@ -46,13 +46,13 @@ Measure and validate the true effectiveness of a marketing campaign beyond raw r
   ```text
   [-72.47, -9.18, 43.36, 5.91, 53.13]
 
-- Distribution of Predicted CATE Scores:
-Customers with positive uplift (Persuadables) are clear on the right tail, while negative uplift (Sleeping Dogs) appear on the left. This highlights which segments benefit from targeting and which should be excluded.
+- **Distribution of Predicted CATE Scores:**
+  Customers with positive uplift (Persuadables) are clear on the right tail, while negative uplift (Sleeping Dogs) appear on the left. This highlights which segments benefit from targeting and which should be excluded.
 
 ![Predicted CATE Scores](reports/figures/uplift/predicted_CATE_distribution.png)
 <br>
-- Cumulative Uplift Curve:
-Targeting the top 10–30% of customers ranked by uplift score yields significantly higher gains compared to random targeting (e.g., ~746 vs. ~450). Beyond ~60%, returns diminish and performance can fall below random, suggesting optimal targeting thresholds.
+- **Cumulative Uplift Curve:**
+  Targeting the top 10–30% of customers ranked by uplift score yields significantly higher gains compared to random targeting (e.g., ~746 vs. ~450). Beyond ~60%, returns diminish and performance can fall below random, suggesting optimal targeting thresholds.
 
 ![Cumulative CATE by Ranked Deciles](reports/figures/uplift/Uplift_Curve.png)
 
