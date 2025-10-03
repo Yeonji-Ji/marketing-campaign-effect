@@ -38,6 +38,7 @@ Measure and validate the true effectiveness of a marketing campaign beyond raw r
   - With Caliper: 0.168  
   - With XGBoost: 0.141  
 - Some features remain hard to match  
+- SMD Before & After (with XGBoost)
 ![SMD_XGBoost](reports/figures/hypo01/smd_xgboost.png)
 
 ### Uplift Model
