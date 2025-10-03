@@ -6,6 +6,7 @@ Measure and validate the true effectiveness of a marketing campaign beyond raw r
 ---
 
 ## Data
+[Marketing Campaign Dataset](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign)
 - Customer demographics: age, income, household with kids, etc.  
 - Marketing history: prior campaign acceptance (aggregated features)  
 - Spending behavior: Total Spend (key performance indicator)  
@@ -37,6 +38,7 @@ Measure and validate the true effectiveness of a marketing campaign beyond raw r
   - With Caliper: 0.168  
   - With XGBoost: 0.141  
 - Some features remain hard to match  
+![SMD_XGBoost](reports/figures/hypo01/smd_xgboost.png)
 
 ### Uplift Model
 - Predicted CATE scores (Top 5):  
